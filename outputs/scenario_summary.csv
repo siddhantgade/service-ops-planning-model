@@ -1,0 +1,4 @@
+scenario,peak_required_fte,weeks_short,peak_gap_fte,max_temp_fte_after_overtime,weeks_provider_over_cap
+1 Base (BAU only),65.4,1,3.3,0,0
+2 Base + change project,68.5,4,6.3,0,3
+3 Change + peak + absence,81.1,6,19.0,7,4

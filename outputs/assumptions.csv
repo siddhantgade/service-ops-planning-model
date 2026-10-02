@@ -1,0 +1,21 @@
+assumption,value
+holdout_weeks,13
+horizon_weeks,13
+season_length_weeks,52
+aht_call_min,7
+aht_case_min,22
+contracted_hours_per_fte,37.5
+shrinkage,0.3
+occupancy,0.85
+outsourced_share,0.25
+provider_weekly_cap_cases,800
+overtime_hours_per_fte,4
+variance_flag_pct,10
+interval_z,1.28
+planned_fte_changes,"{""5"": -2, ""9"": 3}"
+change_cases_per_week,350
+change_weeks,"[4, 5, 6, 7, 8, 9]"
+change_ramp,"[0.4, 0.8, 1.0, 1.0, 0.7, 0.3]"
+peak_weeks,"[6, 7, 8, 9, 10]"
+peak_uplift,0.1
+peak_shrinkage,0.35

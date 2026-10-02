@@ -1,0 +1,64 @@
+{
+  "best_models": {
+    "calls": "Holt-Winters",
+    "cases_bau": "Holt-Winters"
+  },
+  "available_fte_start": 64.1,
+  "productive_hours_per_fte": 22.31,
+  "accuracy": [
+    {
+      "series": "calls",
+      "model": "Seasonal naive",
+      "MAPE_pct": 4.72,
+      "bias_pct": -3.71,
+      "RMSE": 246.9
+    },
+    {
+      "series": "calls",
+      "model": "Holt-Winters",
+      "MAPE_pct": 3.78,
+      "bias_pct": -0.46,
+      "RMSE": 189.5
+    },
+    {
+      "series": "cases_bau",
+      "model": "Seasonal naive",
+      "MAPE_pct": 5.46,
+      "bias_pct": -3.65,
+      "RMSE": 195.7
+    },
+    {
+      "series": "cases_bau",
+      "model": "Holt-Winters",
+      "MAPE_pct": 5.2,
+      "bias_pct": -2.5,
+      "RMSE": 178.6
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "1 Base (BAU only)",
+      "peak_required_fte": 65.4,
+      "weeks_short": 1,
+      "peak_gap_fte": 3.3,
+      "max_temp_fte_after_overtime": 0,
+      "weeks_provider_over_cap": 0
+    },
+    {
+      "scenario": "2 Base + change project",
+      "peak_required_fte": 68.5,
+      "weeks_short": 4,
+      "peak_gap_fte": 6.3,
+      "max_temp_fte_after_overtime": 0,
+      "weeks_provider_over_cap": 3
+    },
+    {
+      "scenario": "3 Change + peak + absence",
+      "peak_required_fte": 81.1,
+      "weeks_short": 6,
+      "peak_gap_fte": 19.0,
+      "max_temp_fte_after_overtime": 7,
+      "weeks_provider_over_cap": 4
+    }
+  ]
+}

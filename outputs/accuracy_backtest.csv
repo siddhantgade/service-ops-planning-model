@@ -1,0 +1,5 @@
+series,model,MAPE_pct,bias_pct,RMSE
+calls,Seasonal naive,4.72,-3.71,246.9
+calls,Holt-Winters,3.78,-0.46,189.5
+cases_bau,Seasonal naive,5.46,-3.65,195.7
+cases_bau,Holt-Winters,5.2,-2.5,178.6
